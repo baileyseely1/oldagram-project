@@ -1,4 +1,4 @@
-const posts = [
+/* const posts = [
     {
         name: "Vincent van Gogh",
         username: "vincey1853",
@@ -28,3 +28,4 @@ const posts = [
     }
 ]
 
+*/
