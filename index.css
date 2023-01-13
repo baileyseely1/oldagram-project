@@ -1,3 +1,5 @@
+/* general styling */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -7,23 +9,31 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* main section */
+
 .container {
     width: 375px;
     margin: 0 auto;
-    border: 3px solid black;
 }
 
 header {
     margin: 16px 0;
 }
 
-.profile-info,
-.header-container {
+.profile-header,
+.header-container,
+.profile-footer {
     margin: 10px;
 }
 
 header .container {
     border-bottom: 1px solid #c4c4c4;
+}
+
+.divider {
+    height: 25px;
+    margin-top: 15px;
+    background-color: #EDEDED;
 }
 
 /* images */
@@ -33,22 +43,29 @@ header .container {
     height: 30px;
 }
 
-header .avatar {
-    width: 33px;
-    height: 33px;
-    float: right;
-    border-radius: 100%;
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 20px 10px 0;
 }
 
+header .avatar,
 main .avatar {
     width: 33px;
     height: 33px;
-    float: left;
     border-radius: 100%;
 }
 
-.profile-info .avatar {
-    margin-right: 5px;
+header .avatar{
+    float: right;
+}
+
+main .avatar {
+    float: left;
+}
+
+.profile-header .avatar {
+    margin-right: 10px;
 }
 
 .vg-painting{
@@ -59,14 +76,31 @@ main .avatar {
 /* typography */
 
 h2, 
+h3,
 p {
     margin: 0;
 }
 
-h2 {
+h2,
+h3 {
     font-size: 13px;
 }
+
 
 p {
     font-size: 12px;
 }
+
+.profile-footer h2{
+    margin-bottom: 10px;
+}
+
+.profile-footer .username{
+    display: inline;
+}
+
+.profile-footer .user-comment{
+    display: inline;
+    margin-bottom: 0;
+}
+
