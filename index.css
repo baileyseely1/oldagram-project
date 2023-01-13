@@ -26,6 +26,11 @@ header {
     margin: 10px;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 header .container {
     border-bottom: 1px solid #c4c4c4;
 }
@@ -50,13 +55,6 @@ main .avatar {
     border-radius: 100%;
 }
 
-header .avatar{
-    float: right;
-}
-
-main .avatar {
-    float: left;
-}
 
 .profile-header .avatar {
     margin-right: 10px;
