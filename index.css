@@ -43,18 +43,6 @@ header .container {
     height: 30px;
 }
 
-.icon {
-    transition: .1s ease;
-    width: 20px;
-    height: 20px;
-    margin: 0 20px 10px 0;
-}
-
-.icon:hover {
-    width: 25px;
-    height: 25px;
-}
-
 header .avatar,
 main .avatar {
     width: 33px;
@@ -77,6 +65,18 @@ main .avatar {
 .vg-painting{
     height: 375px;
     width: 375px;
+}
+
+.icon {
+    transition: .1s ease;
+    width: 20px;
+    height: 20px;
+    margin: 0 20px 10px 0;
+}
+
+.icon:hover {
+    width: 25px;
+    height: 25px;
 }
 
 /* typography */
