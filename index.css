@@ -3,3 +3,66 @@ html, body {
     padding: 0;
 }
 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+header {
+    margin: 16px 0;
+}
+
+.profile-info,
+.header-container {
+    margin: 10px;
+}
+
+/* images */
+
+.logo {
+    width: 125px;
+    height: 30px;
+}
+
+header .avatar {
+    width: 33px;
+    height: 33px;
+    float: right;
+    border-radius: 100%;
+}
+
+main .avatar {
+    width: 33px;
+    height: 33px;
+    float: left;
+    border-radius: 100%;
+}
+
+.profile-info .avatar {
+    margin-right: 5px;
+}
+
+.vg-painting{
+    height: 375px;
+    width: 375px;
+}
+
+/* typography */
+
+h2, 
+p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 13px;
+}
+
+p {
+    font-size: 12px;
+}
